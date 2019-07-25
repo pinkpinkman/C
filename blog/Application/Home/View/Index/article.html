@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
+<head>
+
+    <title>文章页面</title>
+    <include file="Common:header"/>
+
+
+
+<div class="body">
+<div class="wrapper cls">
+    <div class="main">
+
+        <div class="list">
+          <ul>
+            <li>
+	          	<h1 class="title">
+                    <a href="#" >{$firsts.f_title}</a>
+                </h1>
+				<div class="info">
+                    <span>{$firsts.time|date="Y-m-d",###}</span>
+                </div>
+
+{$firsts.f_content}
+<?php echo htmlspecialchars_decode($firsts['f_content']);?>
+
+
+
+
+          	</li>
+                 
+          </ul>
+        </div>
+        </volist>
+
+
+    </div>
+
+
+    <include file="Common:right"/>
+
+    <include file="Common:footer"/>
