@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(void)
 {
-    const char fn[] = "´ï";
-    const char n [] = "ĞñÉı";
+    const char fn[] = "Â´Ã¯";
+    const char n [] = "ÃÃ±Ã‰Ã½";
     printf("%s %s\n",fn,n);
     printf("%s\n%s\n",fn,n);
     printf("%s %s",fn,n);
