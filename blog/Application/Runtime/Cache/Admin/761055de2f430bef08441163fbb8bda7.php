@@ -20,13 +20,14 @@
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="#">管理员</a></li>
-                <li><a href="#">修改密码</a></li>
-                <li><a href="#">退出</a></li>
+                <li><a href="#">管理员:<?php echo $_SESSION['user_name'];?></a></li>
+                <li><a href="/blog/index.php/Admin/Login/edit/id/<?php echo $_SESSION['user_id'];?>">修改密码</a></li>
+                <li><a href="/blog/index.php/Admin/Login/logout">退出</a></li>
             </ul>
         </div>
     </div>
 </div>
+
     <div class="container clearfix">
     <div class="sidebar-wrap">
         <div class="sidebar-title">
@@ -122,3 +123,12 @@
 </div>
 </body>
 </html>
+<script type="text/javascript" src="/blog/Public/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/blog/Public/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="/blog/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+
+<script type="text/javascript">
+    // 实例化
+    UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:350,});
+</script>

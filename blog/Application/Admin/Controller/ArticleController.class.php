@@ -1,8 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class ArticleController extends Controller
-{
+class ArticleController extends BaseController{
     public function lst()
     {
         $article=D('article');
@@ -11,8 +10,7 @@ class ArticleController extends Controller
         $this->display();
     }
 
-    public function add()
-    {
+    public function add(){
         $article=D('article');
 
         if (IS_POST) {
@@ -58,8 +56,9 @@ class ArticleController extends Controller
         $article=D('article');
 
         if (IS_POST) {
-            $data['a_title']=I('a_title');
             $data['a_id']=I('a_id');
+            $data['a_title']=I('a_title');
+            $data['f_pic'] = I('f_pic');
             $data['a_rem']=I('a_rem');
             $data['a_content']=I['a_content'];
             $data['time']=time();

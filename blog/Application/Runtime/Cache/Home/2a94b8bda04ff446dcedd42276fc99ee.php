@@ -1,9 +1,57 @@
-<?php if (!defined('THINK_PATH')) exit();?>
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
 <head>
-
     <title>360 Total Security 博客</title>
+    <style type="text/css">
+      .b-page {
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px #E2E2E2;
+      }
+      .page {
+          width: 95%;
+          padding: 30px 15px;
+          background: #FFF;
+          text-align: right;
+          overflow: hidden;
+      }
+        .page .first,
+        .page .prev,
+        .page .current,
+        .page .num,
+        .page .current,
+        .page .next,
+        .page .end {
+            padding: 8px 16px;
+            margin: 0px 5px;
+            display: inline-block;
+            color: #008CBA;
+            border: 1px solid #F2F2F2;
+            border-radius: 5px;
+        }
+        .page .first:hover,
+        .page .prev:hover,
+        .page .current:hover,
+        .page .num:hover,
+        .page .current:hover,
+        .page .next:hover,
+        .page .end:hover {
+            text-decoration: none;
+            background: #F8F5F5;
+        }
+        .page .current {
+            background-color: #008CBA;
+            color: #FFF;
+            border-radius: 5px;
+            border: 1px solid #008CBA;
+        }
+        .page .current:hover {
+            text-decoration: none;
+            background: #008CBA;
+        }
+        .page .not-allowed {
+            cursor: not-allowed;
+        }
+    </style>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -47,7 +95,7 @@
         <div class="logo">
             <div class="title">
                 <a href="#">
-                    <img src="https://blog.360totalsecurity.com/wp-content/themes/360TotalSecurity/img/blog_logo.png" alt="360 Total Security Blog Logo" title="360 Total Security Blog Logo" width="126" height="45" />
+                    <img src="#" alt="360 Total Security Blog Logo" title="360 Total Security Blog Logo" width="126" height="45" />
                     <h1>博客222</h1>
                 </a>
             </div>
@@ -56,15 +104,13 @@
         <nav class="navbar" role="navigation">
             <ul class="nav">
 <!--                <li><a class="active" href="#">最新文章</a></li>-->
-                <?php if(is_array($navers)): $i = 0; $__LIST__ = $navers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/
-                <?php if($vo['cate_id'] == 14): ?>index
-                </elseif condition="$vo['cate_id'] eq 13">article
-                </elseif condition="$vo['cate_id'] eq 12">about<?php endif; ?>
-                    /index"
-                    <?php if($cateids['cate_id'] == $vo['cate_id]): ?>class="active"<?php endif; ?>
-                    ><?php echo ($vo["cate_name"]); ?></a></li>
-
-<!--                <li><a href="#">公司新闻</a></li>--><?php endforeach; endif; else: echo "" ;endif; ?>
+                <?php if(is_array($navers)): $i = 0; $__LIST__ = $navers;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+                    <?php if($vo['cate_id'] == 1 ): ?><a    href="/blog/index.php/Home/index/index" class=""><?php echo ($vo["cate_name"]); ?></a>
+                    <?php elseif($vo['cate_id'] == 2 ): ?>
+                    <a    href="/blog/index.php/Home/article/index" class=""><?php echo ($vo["cate_name"]); ?></a>
+                    <?php elseif($vo['cate_id'] == 3 ): ?>
+                    <a    href="/blog/index.php/Home/about/index" class=""><?php echo ($vo["cate_name"]); ?></a><?php endif; ?>
+                    </li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
         </nav>
     </div>
@@ -76,7 +122,7 @@
         <li><a href="#">产品相关</a></li>
         <li><a href="#">公司新闻</a></li>
         <li>
-            <a class="download" data-ga="download|anchor-bar|ts|" href="#">免费下载</a>
+            <a class="download" data-ga="download|anchor-bar|ts|" href="<?php echo U('Admin/Login/login');?>">Whether to log in now？</a>
         </li>
     </ul>
 </div>
@@ -85,41 +131,30 @@
 
 <!-- 导航栏结束 -->
 
-
-
 <div class="body">
 <div class="wrapper cls">
     <div class="main">
 
-        <?php if(is_array($firsts)): $i = 0; $__LIST__ = $firsts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="list">
+      <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="list">
           <ul>
             <li>
-	          	<h1 class="title">
-                    <a href="#" ><?php echo ($vo["f_title"]); ?></a>
-                </h1>
-				<div class="info">
-                    <span><?php echo (date("Y-m-d",$vo["time"])); ?></span>
-                </div>
+	          	<h1 class="title"><a href="/blog/index.php/Home/Index/article/id/<?php echo ($vo["f_id"]); ?>" ><?php echo ($vo["f_title"]); ?></a></h1>
+				<div class="info"><span><?php echo (date("Y-m-d",$vo["time"])); ?></span></div>
 				<div class="thumb">
-                    <a href="#" >
-                        <?php if($vo['f_pic] != null): ?><img width="1200" height="630" src="/blog<?php echo ($vo["f_pic"]); ?>"
-                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
-                        <else>
-                        </else>
-                            <img width="1200" height="630" src="/blog<?php echo ($vo["f_pic"]); ?>"
-                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /><?php endif; ?>
-
-                    </a>
-                </div>
+          <a href="#" >
+          <?php if($vo['f_pic'] != null): ?><img width="1200" height="630" src="/blog<?php echo ($vo["f_pic"]); ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+          <?php else: ?>
+          <img width="1200" height="630" src="/blog/Upl+256oads/58466607_p0_master1200.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /><?php endif; ?>
+          </a>
+        </div>
 
           	</li>
-                 
           </ul>
         </div><?php endforeach; endif; else: echo "" ;endif; ?>
-
-
+      <div class="list page b-page">
+              <?php echo ($page); ?>
+              </div>
     </div>
-
 
     <div class="sticky-content-spacer">
     <div id="sidebar" class="side">
@@ -127,8 +162,8 @@
 
         <div class="widget-download">
             <div class="free-download">
-                <img class="ts-logo" width="228" src="https://blog.360totalsecurity.com/wp-content/themes/360TotalSecurity/img/360_logo_wide.png" alt="360 Total Security" />
-                <a class="title" data-ga="download|sidebar|ts|360 Total Security 博客" target="_blank" title="免费下载 360 Total Security" href="#">免费下载</a>
+                <img class="ts-logo" width="228" src="#" alt="360 Total Security" />
+                <a class="title" data-ga="download|sidebar|ts|360 Total Security 博客" target="_blank" title="加入我们" href="//shang.qq.com/wpa/qunwpa?idkey=6430153b661e8fab2a5d7f44e5a8fe4cab93d21e11682bf79431e2afd210f81c">加入我们</a>
                 <span class="os">适用于Windows 10/8.1/8/7/Vista/XP (32,64bit)</span>
             </div>
         </div>
@@ -139,34 +174,23 @@
         <div class="pop">
             <div class="title">热门文章</div>
             <ul>
-                <li>
-                    <div class="thumb"><a href="#">
-                        <img width="1350" height="675" src="https://blog.360totalsecurity.com/wp-content/uploads/2015/06/file_protection_031.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="file_protection_03" srcset="https://blog.360totalsecurity.com/wp-content/uploads/2015/06/file_protection_031.png 1350w, https://blog.360totalsecurity.com/wp-content/uploads/2015/06/file_protection_031-300x150.png 300w, https://blog.360totalsecurity.com/wp-content/uploads/2015/06/file_protection_031-1024x512.png 1024w" sizes="(max-width: 1350px) 100vw, 1350px" /></a>
+                <?php if(is_array($arem)): $i = 0; $__LIST__ = $arem;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
+                    <div class="thumb"><a href="/blog/index.php/Home/article/article/id/<?php echo ($vo["a_id"]); ?>">
+                        <img width="1350" height="675" src="/blog<?php echo ($vo["a_pic"]); ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image"/></a>
                     </div>
-                    <h2 class="topic"><a href="#">360 Total Security推出文件图片防护 保护您的数据不受黑客威胁！</a></h2>
+                    <h2 class="topic"><a href="/blog/index.php/Home/article/article/id/<?php echo ($vo["a_id"]); ?>"><?php echo ($vo["a_title"]); ?></a></h2>
                     <div class="clear"></div>
-                </li>
+                </li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
         </div>
         <!-- 热门文章end -->
-
-        <div class="fb-page" data-href="https://www.facebook.com/360safe" data-width="293" data-height="320" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/360safe"><a href="https://www.facebook.com/360safe">360 Total Security</a></blockquote></div>
-        </div>
     </div>
 </div>
 <div class="clear"></div>
 </div>
 </div>
-<div class="pagebar">
-    <a href='https://blog.360totalsecurity.com/zh-cn/' class='active'>1</a><a href='https://blog.360totalsecurity.com/zh-cn/page/2/'>2</a><a href="https://blog.360totalsecurity.com/zh-cn/page/2/" class="next icon alt">></a>    </div>
-
-
-
-
-
-
-
-
+<!--<div class="pagebar">-->
+<!--    <a href='https://blog.360totalsecurity.com/zh-cn/' class='active'>1</a><a href='https://blog.360totalsecurity.com/zh-cn/page/2/'>2</a><a href="https://blog.360totalsecurity.com/zh-cn/page/2/" class="next icon alt">></a>    </div>-->
 
     <footer>
     <div class = "footer">
@@ -250,4 +274,40 @@
 
 
 </body>
+</html>
+
+
+        <script>
+        $(function($){
+            $('[data-ga]').click(function() {
+                var e = $(this).attr('data-ga').split('|');
+                ga('send', 'event', e[0], e[1], e[2]);
+            });
+        });
+
+        $(function() {
+          'use strict';
+          var $window = $(window);
+          $window.scroll(checkAnchorBar);
+          checkAnchorBar();
+
+          function checkAnchorBar() {
+            var $anchorBar = $('.anchor-bar');
+            var scrollTop = $window.scrollTop();
+
+            var $anchorStartElem = $('header');
+            var attachedClass = 'attached';
+
+            var threshold = $anchorStartElem.offset().top + $anchorStartElem.height();
+
+            if (!$anchorBar.hasClass(attachedClass) && scrollTop >= threshold) {
+              $anchorBar.addClass(attachedClass);
+            } else if ($anchorBar.hasClass(attachedClass) && scrollTop < threshold) {
+              $anchorBar.removeClass(attachedClass);
+            }
+          }
+        });
+    </script>
+    <div id="fb-root"></div>
+    </body>
 </html>

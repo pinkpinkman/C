@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class FirstController extends Controller{
+class FirstController extends BaseController{
     public function lst(){
         $first=D('first');
         $firsts=$first->select();

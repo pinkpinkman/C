@@ -20,13 +20,14 @@
         </div>
         <div class="top-info-wrap">
             <ul class="top-info-list clearfix">
-                <li><a href="#">管理员</a></li>
-                <li><a href="#">修改密码</a></li>
-                <li><a href="#">退出</a></li>
+                <li><a href="#">管理员:<?php echo $_SESSION['user_name'];?></a></li>
+                <li><a href="/blog/index.php/Admin/Login/edit/id/<?php echo $_SESSION['user_id'];?>">修改密码</a></li>
+                <li><a href="/blog/index.php/Admin/Login/logout">退出</a></li>
             </ul>
         </div>
     </div>
 </div>
+
     <div class="container clearfix">
     <div class="sidebar-wrap">
         <div class="sidebar-title">
@@ -104,6 +105,7 @@
                             <th>标题</th>
                             <th>操作</th>
                         </tr>
+
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                             <td><?php echo ($vo["cate_id"]); ?></td>
                             <td><?php echo ($vo["cate_name"]); ?></td>
@@ -112,6 +114,7 @@
                                 <a class="link-del"     href="/blog/index.php/Admin/Cate/del/id/<?php echo ($vo["cate_id"]); ?>" onclick="return confirm('你要删除栏目 <?php echo ($vo["cate_name"]); ?> 吗?');">删除</a>
                             </td>
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+
                     </table>
                     <div class="list-page"> 2 条 1/1 页</div>
                 </div>

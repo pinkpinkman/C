@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class AboutController extends Controller{
+class AboutController extends BaseController{
     public function lst(){
         $about=D('about');
         $abouts=$about->select();

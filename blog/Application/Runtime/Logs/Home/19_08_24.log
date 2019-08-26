@@ -1,0 +1,890 @@
+[ 2019-08-24T15:53:44+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0896s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Undefined variable: list C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: page C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008050s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0839s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011012s ]
+
+[ 2019-08-24T15:54:15+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: list C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: page C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002567s ]
+
+[ 2019-08-24T15:55:32+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Undefined variable: list C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 138 行.
+NOTIC: [8] Undefined variable: page C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 155 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2019-08-24T15:57:07+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002200s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2019-08-24T15:57:11+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2019-08-24T15:57:15+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2019-08-24T15:57:16+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2019-08-24T15:57:20+08:00 ] ::1 /blog/index.php/Home/Index/article/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_first` WHERE `f_id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2019-08-24T15:57:22+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Article/article.html
+
+[ 2019-08-24T15:57:26+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Article/article.html
+
+[ 2019-08-24T15:57:48+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0008s ]
+ERR: 模板不存在:./Application/Home/View/Article/article.html
+
+[ 2019-08-24T15:58:14+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Article/article.html
+
+[ 2019-08-24T16:08:14+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2019-08-24T16:08:18+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2019-08-24T16:08:20+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003308s ]
+
+[ 2019-08-24T16:08:21+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2019-08-24T16:08:35+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2019-08-24T16:08:37+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2019-08-24T16:08:39+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001554s ]
+
+[ 2019-08-24T16:08:41+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003054s ]
+
+[ 2019-08-24T16:10:00+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2019-08-24T16:10:02+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2019-08-24T16:10:03+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2019-08-24T16:10:04+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024331s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2019-08-24T16:10:05+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: firsts C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2019-08-24T16:13:00+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001758s ]
+
+[ 2019-08-24T16:13:02+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005098s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003415s ]
+
+[ 2019-08-24T16:13:03+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2019-08-24T16:13:04+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002825s ]
+
+[ 2019-08-24T16:14:52+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002645s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002325s ]
+
+[ 2019-08-24T16:17:49+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002894s ]
+
+[ 2019-08-24T16:17:51+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006091s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined index: time C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2019-08-24T16:17:52+08:00 ] ::1 /blog/index.php/Home/article/article/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: a_title C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 92 行.
+NOTIC: [8] Undefined index: time C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 95 行.
+NOTIC: [8] Undefined variable: articles C:\wamp64\www\blog\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003077s ]
+
+[ 2019-08-24T16:18:19+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,7   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002318s ]
+
+[ 2019-08-24T16:18:21+08:00 ] ::1 /blog/index.php/Home/Index/article/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_first` WHERE `f_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002077s ]
+

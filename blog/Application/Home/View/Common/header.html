@@ -41,7 +41,7 @@
         <div class="logo">
             <div class="title">
                 <a href="#">
-                    <img src="https://blog.360totalsecurity.com/wp-content/themes/360TotalSecurity/img/blog_logo.png" alt="360 Total Security Blog Logo" title="360 Total Security Blog Logo" width="126" height="45" />
+                    <img src="#" alt="360 Total Security Blog Logo" title="360 Total Security Blog Logo" width="126" height="45" />
                     <h1>博客222</h1>
                 </a>
             </div>
@@ -51,7 +51,15 @@
             <ul class="nav">
 <!--                <li><a class="active" href="#">最新文章</a></li>-->
                 <volist name="navers" id="vo">
-                    <li><a class="active" href="__MODULE__/index/index">{$vo.cate_name}</a></li>
+                    <li>
+                    <if condition="$vo['cate_id'] eq 1 ">
+                    <a    href="__MODULE__/index/index" class="">{$vo.cate_name}</a>
+                    <elseif condition="$vo['cate_id'] eq 2 "/>
+                    <a    href="__MODULE__/article/index" class="">{$vo.cate_name}</a>
+                    <elseif condition="$vo['cate_id'] eq 3 "/>
+                    <a    href="__MODULE__/about/index" class="">{$vo.cate_name}</a>
+                    </if>
+                    </li>
                 </volist>
             </ul>
         </nav>
@@ -64,7 +72,7 @@
         <li><a href="#">产品相关</a></li>
         <li><a href="#">公司新闻</a></li>
         <li>
-            <a class="download" data-ga="download|anchor-bar|ts|" href="#">免费下载</a>
+            <a class="download" data-ga="download|anchor-bar|ts|" href="{:U('Admin/Login/login')}">Whether to log in now？</a>
         </li>
     </ul>
 </div>

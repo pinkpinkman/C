@@ -7,6 +7,7 @@ class CommonController extends Controller
     {
         parent::__construct();
         $this->nav();
+        $this->pop();
     }
 
     public function nav()
@@ -15,6 +16,13 @@ class CommonController extends Controller
         $navers = $cate->select();
         $this->assign('navers', $navers);
 
-//        $this->display();
+        // $this->display();
     }
+
+    public function pop(){
+      $article=D('article');
+      $where['a_rem']=1;
+      $arem=$article->where($where)->limit(3)->select();
+      $this->assign('arem',$arem);
+      }
 }

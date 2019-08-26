@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class CateController extends Controller{
+class CateController extends BaseController{
     public function lst(){
         $cate=D('cate');
         $cates=$cate->select();

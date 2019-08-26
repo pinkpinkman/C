@@ -106,7 +106,7 @@
                             <th>操作</th>
                         </tr>
 
-                        <?php if(is_array($firsts)): $i = 0; $__LIST__ = $firsts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <?php if(is_array($abouts)): $i = 0; $__LIST__ = $abouts;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                             <td><?php echo ($vo["ab_id"]); ?></td>
                             <td><?php echo ($vo["ab_title"]); ?></td>
                             <td>
@@ -121,7 +121,7 @@
                         </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
                     </table>
-                    <div class="list-page"> 2 条 1/1 页</div>
+                    <div class="list-page"> <td><?php echo ($vo["ab_id"]); ?></td> 条 1/1 页</div>
                 </div>
             </form>
         </div>

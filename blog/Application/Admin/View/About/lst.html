@@ -52,7 +52,7 @@
                             <th>操作</th>
                         </tr>
 
-                        <volist name="firsts" id="vo">
+                        <volist name="abouts" id="vo">
                         <tr>
                             <td>{$vo.ab_id}</td>
                             <td>{$vo.ab_title}</td>
@@ -71,7 +71,7 @@
                         </volist>
 
                     </table>
-                    <div class="list-page"> 2 条 1/1 页</div>
+                    <div class="list-page"> <td>{$vo.ab_id}</td> 条 1/1 页</div>
                 </div>
             </form>
         </div>

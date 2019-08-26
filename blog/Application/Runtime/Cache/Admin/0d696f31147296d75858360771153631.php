@@ -115,3 +115,12 @@
 </div>
 </body>
 </html>
+<script type="text/javascript" src="/blog/Public/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/blog/Public/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="/blog/Public/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+
+<script type="text/javascript">
+    // 实例化
+    UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:350,});
+</script>

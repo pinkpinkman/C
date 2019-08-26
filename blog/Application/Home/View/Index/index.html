@@ -1,63 +1,102 @@
-
 <!doctype html>
 <html  lang="zh-CN" prefix="og: http://ogp.me/ns#">
 <head>
     <title>360 Total Security 博客</title>
+    <style type="text/css">
+      .b-page {
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px #E2E2E2;
+      }
+      .page {
+          width: 95%;
+          padding: 30px 15px;
+          background: #FFF;
+          text-align: right;
+          overflow: hidden;
+      }
+        .page .first,
+        .page .prev,
+        .page .current,
+        .page .num,
+        .page .current,
+        .page .next,
+        .page .end {
+            padding: 8px 16px;
+            margin: 0px 5px;
+            display: inline-block;
+            color: #008CBA;
+            border: 1px solid #F2F2F2;
+            border-radius: 5px;
+        }
+        .page .first:hover,
+        .page .prev:hover,
+        .page .current:hover,
+        .page .num:hover,
+        .page .current:hover,
+        .page .next:hover,
+        .page .end:hover {
+            text-decoration: none;
+            background: #F8F5F5;
+        }
+        .page .current {
+            background-color: #008CBA;
+            color: #FFF;
+            border-radius: 5px;
+            border: 1px solid #008CBA;
+        }
+        .page .current:hover {
+            text-decoration: none;
+            background: #008CBA;
+        }
+        .page .not-allowed {
+            cursor: not-allowed;
+        }
+    </style>
     <include file="Common:header"/>
 <div class="body">
 <div class="wrapper cls">
     <div class="main">
+
+      <volist name="list" id="vo">
         <div class="list">
           <ul>
             <li>
-	          	<h1 class="title"><a href="#" >仅需3款简单的应用，保证您的线上浏览安全</a></h1>
-				<div class="info"><span>2017/3/16</span><span>360TS</span></div>
-				<div class="thumb"><a href="#" >
-				<img width="1200" height="630" src="https://blog.360totalsecurity.com/wp-content/uploads/2017/03/170310_fb_blog_tookit_2.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a></div>
-				<div class="intro">
-					<a href="#" ><p>在我们用来同世界连接的所有应用程序中，浏览器无疑是&#8230;</p>
-					</a>
-				</div>
+	          	<h1 class="title"><a href="__CONTROLLER__/article/id/{$vo.f_id}" >{$vo.f_title}</a></h1>
+				<div class="info"><span>{$vo.time|date="Y-m-d",###}</span></div>
+				<div class="thumb">
+          <a href="#" >
+          <if condition="$vo['f_pic'] neq null">
+          <img width="1200" height="630" src="__ROOT__{$vo.f_pic}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+          <else/>
+          <img width="1200" height="630" src="__ROOT__/Upl+256oads/58466607_p0_master1200.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
+          </if>
+          </a>
+        </div>
+
           	</li>
-                 
           </ul>
         </div>
+      </volist>
+      <div class="list page b-page">
+              {$page}
+              </div>
     </div>
-
 
     <include file="Common:right"/>
     <include file="Common:footer"/>
 
-
-
-
-
-
-
-
-
-
-
-    
-      
-     
         <script>
         $(function($){
             $('[data-ga]').click(function() {
                 var e = $(this).attr('data-ga').split('|');
                 ga('send', 'event', e[0], e[1], e[2]);
             });
-
-
         });
 
         $(function() {
           'use strict';
-
           var $window = $(window);
-
           $window.scroll(checkAnchorBar);
-
           checkAnchorBar();
 
           function checkAnchorBar() {
@@ -77,10 +116,6 @@
           }
         });
     </script>
-    
-    
     <div id="fb-root"></div>
-
-   
     </body>
 </html>

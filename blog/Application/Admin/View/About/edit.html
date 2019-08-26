@@ -15,7 +15,7 @@
 
 
                 <form action="" method="post" id="myform" name="myform" enctype="multipart/form-data">
-                    <input type="hidden" name="ab_id" value="{$firsts.ab_id}">
+                    <input type="hidden" name="ab_id" value="{$abouts.ab_id}">
                     <table class="insert-tab" width="100%">
                         <tbody>
 
@@ -23,15 +23,15 @@
                         <tr>
                             <th><i class="require-red">*</i>关于标题：</th>
                             <td>
-                                <input class="common-text required" id="title" name="ab_title" size="50" value="{$firsts.ab_title}" type="text">
+                                <input class="common-text required" id="title" name="ab_title" size="50" value="{$abouts.ab_title}" type="text">
                             </td>
                         </tr>
 
                         <tr>
                             <th><i class="require-red">"</i>缩略图: </th>
                             <td><input name="ab_pic" id="pic" type="file">
-                            <if condition="$firsts{'ab_pic'} neq null">
-                                <img src="__ROOT__{$firsts.ab_pic}" height="30" />
+                            <if condition="$abouts{'ab_pic'} neq null">
+                                <img src="__ROOT__{$abouts.ab_pic}" height="30" />
                                 <else/>
                                 暂无图片
                             </if>
@@ -41,7 +41,7 @@
                         <tr>
                             <th>内容: </th>
                             <td><textarea name="ab_content" class="common-textarea"  id="content" cols="30"
-                                          style="width: 98%;" rows="10">{$firsts.ab_content}</textarea></td>
+                                          style="width: 98%;" rows="10">{$abouts.ab_content}</textarea></td>
                         </tr>
 
                         <tr>
@@ -63,3 +63,12 @@
 </div>
 </body>
 </html>
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+
+<script type="text/javascript">
+    // 实例化
+    UE.getEditor('content',{initialFrameWidth:1000,initialFrameHeight:350,});
+</script>

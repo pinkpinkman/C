@@ -1,0 +1,1458 @@
+[ 2019-08-13T12:02:48+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.041292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015731s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0691s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.041917s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.042059s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.151730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.151876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012462s ]
+
+[ 2019-08-13T12:04:13+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-08-13T12:04:22+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001482s ]
+
+[ 2019-08-13T12:04:25+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+
+[ 2019-08-13T12:04:26+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000637s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001151s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2019-08-13T12:10:13+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2019-08-13T12:10:15+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2019-08-13T12:10:54+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2019-08-13T12:12:18+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001397s ]
+NOTIC: [8] Undefined index: cate_id///// C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 58 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2019-08-13T12:12:36+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2019-08-13T12:13:36+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+NOTIC: [8] Undefined index: cate_id// C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 61 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2019-08-13T12:13:45+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000641s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2019-08-13T12:14:42+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2019-08-13T12:16:31+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2019-08-13T12:19:05+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000639s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001138s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2019-08-13T12:20:31+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+
+[ 2019-08-13T12:20:38+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002650s ]
+
+[ 2019-08-13T12:32:09+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2019-08-13T12:32:52+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2019-08-13T12:52:50+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2019-08-13T12:52:53+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001896s ]
+
+[ 2019-08-13T12:53:03+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2019-08-13T12:53:05+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2019-08-13T12:53:56+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2019-08-13T18:07:53+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.1514s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003355s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.283676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.283864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019007s ]
+
+[ 2019-08-13T18:08:10+08:00 ] ::1 /blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002862s ]
+
+[ 2019-08-13T18:08:12+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2019-08-13T18:10:02+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001435s ]
+
+[ 2019-08-13T18:10:03+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005070s ]
+
+[ 2019-08-13T18:10:04+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004447s ]
+
+[ 2019-08-13T18:10:05+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2019-08-13T18:44:15+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2019-08-13T18:44:40+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2019-08-13T18:44:40+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012640s ]
+
+[ 2019-08-13T18:46:54+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001987s ]
+
+[ 2019-08-13T18:46:55+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002664s ]
+
+[ 2019-08-13T18:48:58+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 61 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002117s ]
+
+[ 2019-08-13T18:49:00+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2019-08-13T18:49:05+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000148s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005488s ]
+
+[ 2019-08-13T18:49:06+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 61 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2019-08-13T18:49:08+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000641s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002146s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 60 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 61 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001214s ]
+
+[ 2019-08-13T18:49:09+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 60 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 127 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2019-08-13T18:49:57+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016703s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2019-08-13T18:50:37+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2019-08-13T18:50:39+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003459s ]
+
+[ 2019-08-13T18:50:41+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001478s ]
+
+[ 2019-08-13T18:50:41+08:00 ] ::1 /blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2019-08-13T18:51:05+08:00 ] ::1 /blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000250s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2019-08-13T18:51:06+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 128 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2019-08-13T18:52:34+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 63 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002048s ]
+
+[ 2019-08-13T18:53:05+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 63 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019121s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2019-08-13T18:53:24+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 63 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2019-08-13T18:53:36+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 62 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001397s ]
+
+[ 2019-08-13T18:54:30+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 61 行.
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 62 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2019-08-13T18:54:42+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2019-08-13T18:54:54+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2019-08-13T18:54:55+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: cateids C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 59 行.
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010741s ]
+
+[ 2019-08-13T18:55:38+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002866s ]
+
+[ 2019-08-13T19:00:30+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2019-08-13T19:00:44+08:00 ] ::1 /blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000499s ]
+NOTIC: [8] Undefined variable: arem C:\wamp64\www\blog\Application\Runtime\Cache\Home\3b9bb8f59aaa4d1691c827dd64ddfa9b.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
