@@ -1,0 +1,2693 @@
+[ 2020-04-26T00:15:45+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.165250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.165312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2020-04-26T00:15:48+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0718s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2020-04-26T00:15:49+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2020-04-26T00:15:51+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001017s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2020-04-26T00:15:52+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0253s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0614s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2020-04-26T00:15:53+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002161s ]
+
+[ 2020-04-26T00:15:55+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2020-04-26T00:18:17+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2020-04-26T00:18:19+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003201s ]
+
+[ 2020-04-26T00:18:20+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048725s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2020-04-26T00:18:21+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.1063s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.1229s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0945s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2020-04-26T00:24:26+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.116821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2020-04-26T00:24:27+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2020-04-26T00:24:29+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0319s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2020-04-26T00:24:34+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0919s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2020-04-26T00:24:35+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2020-04-26T00:24:36+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2020-04-26T00:24:37+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2020-04-26T00:24:38+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2020-04-26T00:38:19+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016606s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 9 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020751s ]
+
+[ 2020-04-26T00:38:28+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0222s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2020-04-26T00:39:43+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2020-04-26T00:39:46+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 9 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2020-04-26T00:39:47+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0124s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2020-04-26T00:39:48+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2020-04-26T00:40:08+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002932s ]
+
+[ 2020-04-26T00:40:38+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 8 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2020-04-26T00:44:24+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2020-04-26T00:44:34+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2020-04-26T00:44:37+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2020-04-26T00:44:39+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0489s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2020-04-26T00:44:40+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2020-04-26T00:44:41+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.1167s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.2578s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0775s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2020-04-26T00:46:00+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0246s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002856s ]
+
+[ 2020-04-26T00:46:55+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0144s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2020-04-26T00:47:28+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0624s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000418s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2020-04-26T00:48:55+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0187s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.1059s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0472s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2020-04-26T01:02:59+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0374s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0734s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002951s ]
+
+[ 2020-04-26T01:04:09+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0642s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058583s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2020-04-26T01:07:26+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086661s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2020-04-26T01:10:18+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.2707s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.1312s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2020-04-26T01:14:15+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0278s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2020-04-26T01:14:40+08:00 ] 127.0.0.1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2020-04-26T01:14:41+08:00 ] 127.0.0.1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2020-04-26T01:14:43+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.1023s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.2954s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2020-04-26T01:20:48+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0166s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2020-04-26T01:21:21+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0302s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2020-04-26T01:21:28+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0204s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0163s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2020-04-26T01:22:12+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2020-04-26T01:22:56+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001791s ]
+
+[ 2020-04-26T01:23:16+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004395s ]
+
+[ 2020-04-26T01:25:32+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0425s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002679s ]
+
+[ 2020-04-26T01:26:03+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0271s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002656s ]
+
+[ 2020-04-26T01:26:24+08:00 ] 127.0.0.1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085676s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2020-04-26T13:38:29+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014529s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.1043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000492s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.624737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.624836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029205s ]
+
+[ 2020-04-26T14:28:30+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.332241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.332292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2020-04-26T14:42:49+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0675s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2020-04-26T14:42:50+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0751s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2020-04-26T14:42:50+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2020-04-26T14:42:51+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2020-04-26T14:42:51+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2020-04-26T14:42:52+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2020-04-26T14:42:52+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.1190s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0667s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2020-04-26T14:42:53+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2020-04-26T14:42:54+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2020-04-26T14:42:54+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002366s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2020-04-26T14:42:54+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.1289s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0947s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033823s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002340s ]
+
+[ 2020-04-26T14:42:55+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0722s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002285s ]
+
+[ 2020-04-26T14:47:58+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+ERR: 无法加载控制器:Article
+
+[ 2020-04-26T14:48:00+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001551s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2020-04-26T14:48:25+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2020-04-26T14:48:25+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2020-04-26T14:48:26+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2020-04-26T14:48:26+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0063s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2020-04-26T14:48:27+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2020-04-26T14:48:27+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2020-04-26T14:48:27+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_about` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_about` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined property: Think\Page::$aboutRow D:\phpStudy\WWW\blog\Application\Home\Controller\AboutController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_about`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012138s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2020-04-26T14:48:28+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0788s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001711s ]
+
+[ 2020-04-26T14:48:28+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2020-04-26T14:48:28+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0232s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0059s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2020-04-26T14:48:32+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0745s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2020-04-26T14:48:32+08:00 ] ::1 /Blog/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2020-04-26T14:48:49+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2020-04-26T14:51:36+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2020-04-26T14:51:39+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0328s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0808s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0221s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2020-04-26T14:51:40+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060415s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2020-04-26T14:54:05+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_about` [ RunTime:0.0622s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_about` LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined property: Think\Page::$aboutRow D:\phpStudy\WWW\blog\Application\Home\Controller\AboutController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_about`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2020-04-26T14:54:09+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2020-04-26T14:54:10+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0897s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_about` [ RunTime:0.0661s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_about` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined property: Think\Page::$aboutRow D:\phpStudy\WWW\blog\Application\Home\Controller\AboutController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_about`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2020-04-26T14:54:11+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2020-04-26T14:54:13+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_about` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_about` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined property: Think\Page::$aboutRow D:\phpStudy\WWW\blog\Application\Home\Controller\AboutController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_about`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2020-04-26T14:54:18+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0742s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0469s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2020-04-26T14:54:21+08:00 ] ::1 /Blog/index.php/Home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_about` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_about` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined property: Think\Page::$aboutRow D:\phpStudy\WWW\blog\Application\Home\Controller\AboutController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_about`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001474s ]
+
+[ 2020-04-26T14:54:22+08:00 ] ::1 /Blog/index.php/Home/article/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0379s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_article` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined property: Think\Page::$articleRow D:\phpStudy\WWW\blog\Application\Home\Controller\ArticleController.class.php 第 16 行.
+SQL: SELECT * FROM `bo_article`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2020-04-26T14:54:23+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.1511s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2020-04-26T14:58:19+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2020-04-26T14:58:31+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065226s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2020-04-26T14:58:52+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0251s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2020-04-26T14:59:14+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2020-04-26T14:59:21+08:00 ] ::1 /Blog/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `bo_cate` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `bo_cate`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `bo_article` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `bo_article` WHERE `a_rem` = 1 LIMIT 7   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `bo_cate` WHERE `cate_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `bo_first` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bo_first` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `bo_first` LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001099s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
